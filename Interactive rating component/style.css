@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(216, 12%, 8%);
+}
+.conteiner{
+    width: 300px;
+    padding: 15px;
+    background: linear-gradient(
+        120deg, hsl(213, 19%, 18%),hsl(213, 19%, 18%)
+    );
+    border: none;
+    border-radius: 20px;
+
+}
+.circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: hsl(214, 14%, 23%) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: white;
+}
+p{
+   color: hsl(217, 12%, 63%) ;  
+}
+.but_box{
+    display: flex;
+    justify-content: space-around;
+}
+.but_box button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:  hsl(214, 14%, 23%)  ;
+    color:hsl(217, 12%, 63%) ;
+    border: none;
+}
+button{
+    width: 270px;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color:hsl(25, 97%, 53%) ;
+}
